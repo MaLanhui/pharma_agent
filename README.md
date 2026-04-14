@@ -1,8 +1,13 @@
 # Pharma Target Agent
 
+![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)
+
 基于 LangChain ReAct + FAISS RAG + RDKit + SwissADME + ProTox3 的药物化学 lead 优化 Agent。
 
 给定靶点名称和起始 SMILES，系统会检索 PubMed 和本地药化规则库，让大模型在保留核心 scaffold 的前提下生成候选分子，经多参数评估后输出排序结果，并支持自动迭代或手动逐轮优化。
+
+![Demo](./images/ui.png)
 
 ---
 
@@ -195,3 +200,21 @@ ProTox3 容易触发风控或短暂失效，项目做了以下处理：本地缓
 - SwissADME 和 ProTox3 为外部服务，稳定性受网络和站点状态影响
 - 大模型生成的候选结构仍需人工核查
 - 高综合分不等于真实活性强，也不代表体内 PK 或毒性理想
+
+---
+
+## 致谢
+
+**SwissADME** — Daina A, Michielin O, Zoete V. *SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules.* Scientific Reports, 2017. [swissadme.ch](http://www.swissadme.ch)
+
+**ProTox 3.0** — Banerjee P, et al. *ProTox-3.0: a webserver for the prediction of toxicity of chemicals.* Nucleic Acids Research, 2024. [tox.charite.de/protox3](https://tox.charite.de/protox3)
+
+**RDKit** — Open-source cheminformatics toolkit. [rdkit.org](https://www.rdkit.org)
+
+---
+
+## License
+
+[Apache License 2.0](./LICENSE)
+
+本项目调用 SwissADME 和 ProTox3 作为外部 web 服务，预测结果受其各自服务条款约束，仅供研究参考，不构成任何临床或监管用途的依据。
