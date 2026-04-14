@@ -1,0 +1,38 @@
+Lipinski Rule of Five:
+For many orally active small molecules, molecular weight should be less than or equal to 500 Da, LogP should be less than or equal to 5, hydrogen bond donors should be less than or equal to 5, and hydrogen bond acceptors should be less than or equal to 10. Molecules that violate multiple criteria often show poor oral exposure.
+
+Veber Rule:
+Good oral bioavailability is more likely when topological polar surface area is less than or equal to 140 square angstrom and the number of rotatable bonds is less than or equal to 10. Excessive flexibility can reduce permeability and increase entropy cost at binding.
+
+Lead-like guidance:
+Early leads are often easier to optimize when molecular weight is closer to 250-350 and LogP is kept moderate. Starting with smaller and less lipophilic compounds leaves room for potency-driven growth during medicinal chemistry optimization.
+
+Solubility guidance:
+High lipophilicity and high aromatic ring count can reduce aqueous solubility. Introducing polarity, ionizable centers, or reducing planarity may improve dissolution, but excessive polarity can harm permeability.
+
+CNS exposure note:
+For central nervous system programs, compounds often require lower TPSA, controlled hydrogen bonding, and moderate lipophilicity. Efflux risk from P-gp should be considered when polarity is high or aromatic basic amines are present.
+
+hERG risk heuristic:
+Highly lipophilic basic amines and flat aromatic scaffolds may elevate hERG liability. Reducing basicity, lowering LogP, and disrupting excessive aromatic planarity can help mitigate this risk.
+
+Metabolic stability heuristic:
+Soft spots such as exposed methoxy groups, benzylic positions, and easily oxidized heteroatoms may reduce microsomal stability. Blocking or replacing liabilities can improve half-life, but must be balanced against clearance and potency.
+
+Permeability tradeoff:
+Increasing polarity may improve solubility while reducing passive permeability. Successful optimization usually balances logP, pKa, hydrogen bonding, and conformational flexibility instead of maximizing a single metric.
+
+Kinase inhibitor note:
+Kinase programs often rely on hinge-binding motifs, but ATP site conservation means selectivity must be engineered carefully. Substituent vectors toward solvent-exposed regions or allosteric pockets can improve selectivity profiles.
+
+EGFR context:
+EGFR inhibitor optimization often needs to consider gatekeeper region interactions, resistance mutations, and balancing potency with wild-type selectivity. Covalent warheads can improve potency in selected contexts but may raise safety and selectivity concerns.
+
+BRAF context:
+BRAF programs should consider paradoxical MAPK activation, class-selective pharmacology, and pathway feedback. Structural changes that alter dimer effects may shift efficacy and safety outcomes.
+
+CDK4/6 context:
+CDK4/6 inhibitor design often balances kinase selectivity with hematologic tolerability. Controlling exposure and off-target kinase binding is important for maintaining a useful therapeutic window.
+
+ADMET communication:
+Optimization proposals should explicitly state which property is being improved, which risk may be introduced, and what assay would confirm the hypothesis. Clear tradeoff management is more valuable than ungrounded claims of universal improvement.
