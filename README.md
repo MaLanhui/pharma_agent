@@ -101,7 +101,7 @@ Playground/
 
 ## 安装
 
-需要 Python 3.10 或 3.11。
+需要 Python 3.10 或 3.11（路径不要有中文）。
 
 ```powershell
 py -3.11 -m venv .venv
