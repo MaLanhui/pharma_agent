@@ -70,7 +70,6 @@ Playground/
 ├─ README.md
 ├─ requirements.txt
 ├─ start_app.ps1
-├─ .env
 ├─ .env.example
 └─ pharma_agent/
    ├─ config.py
