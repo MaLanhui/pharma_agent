@@ -2,6 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)
+![CI](https://github.com/MaLanhui/pharma_agent/actions/workflows/lint.yml/badge.svg)
 
 基于 LangChain ReAct + FAISS RAG + RDKit + SwissADME + ProTox3 的药物化学 lead 优化 Agent。
 
