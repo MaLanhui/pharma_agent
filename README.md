@@ -79,12 +79,7 @@ Playground/
    │  ├─ memory.py
    │  └─ tools.py
    ├─ data/
-   │  ├─ drug_rules.txt
-   │  ├─ swissadme_cache.json
-   │  ├─ protox3_cache.json
-   │  └─ faiss_index/
-   │     ├─ index.faiss
-   │     └─ metadata.json
+   │  └─ drug_rules.txt
    ├─ mol/
    │  ├─ evaluator.py
    │  ├─ swissadme_client.py
