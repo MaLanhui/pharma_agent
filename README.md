@@ -203,6 +203,11 @@ ProTox3 容易触发风控或短暂失效，项目做了以下处理：本地缓
 
 ---
 
+---
+## 结果展示
+![result](./images/result.png)
+---
+
 ## 致谢
 
 **SwissADME** — Daina A, Michielin O, Zoete V. *SwissADME: a free web tool to evaluate pharmacokinetics, drug-likeness and medicinal chemistry friendliness of small molecules.* Scientific Reports, 2017. [swissadme.ch](http://www.swissadme.ch)
