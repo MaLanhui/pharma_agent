@@ -4,7 +4,6 @@ import json
 from pathlib import Path
 
 import faiss
-import numpy as np
 
 from pharma_agent.config import DATA_DIR, INDEX_DIR
 from pharma_agent.rag.embeddings import chunk_id, get_embedder
